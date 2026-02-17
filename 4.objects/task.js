@@ -14,7 +14,7 @@ Student.prototype.setSubject = function (subjectName) {
 }
 
 ///Задание 3
-Student.prototype.addMarks = function (...marks) {
+Student.prototype.addMarks = function (...marksToAdd) {
   
   if (!this.marks) {
     return;
